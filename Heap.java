@@ -16,7 +16,8 @@ int j = h.size()-1;
 if(j==0) {
 return;
 }
-while(h.get(j)<int l=h.get(((int) Math.floor((((double) i)-1)/k))) {
+while(h.get(j)<h.get(((int) Math.floor((((double) i)-1)/k)))) {
+int l = h.get(((int) Math.floor((((double) i)-1)/k)));
 int temp = h.get(j);
 h.set(j, h.get(l));
 h.set(l, temp);
