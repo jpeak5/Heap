@@ -16,11 +16,12 @@ int j = h.size()-1;
 if(j==0) {
 return;
 }
-while(h.get(j)<h.get(((int) Math.floor((((double) i)-1)/k)))) {
-int l = h.get(((int) Math.floor((((double) i)-1)/k)));
+while(j!=0&&(h.get(j)<h.get(((int) Math.floor(((double) j-1)/k))))) {
+int l =((int) Math.floor(((double) j-1)/k));
 int temp = h.get(j);
 h.set(j, h.get(l));
 h.set(l, temp);
+j=l;
 }
 }
 
@@ -49,7 +50,7 @@ minchild=j;
 if((node*k+1)>=h.size()) {
 break;
 }
-if(h.get(node*k+minchild)>h.get(node)) {
+if(h.get(node*k+minchild)<h.get(node)) {
 done=0;
 int temp = h.get(node);
 h.set(node, h.get(node*k+minchild));
@@ -60,5 +61,10 @@ node=node*k+minchild;
 }
 return min;
 }
+
+public void printH() {
+System.out.println(h);
+}
+
 
 }
