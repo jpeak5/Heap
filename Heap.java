@@ -43,7 +43,7 @@ for(int j=1; j<=k; j++) {
 if((node*k+j)>=h.size()) {
 break;
 }
-if(h.get(node*k+j)<h.get(minchild)) {
+if(h.get(node*k+j)<h.get(node*k+minchild)) {
 minchild=j;
 }
 }

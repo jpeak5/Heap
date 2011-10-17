@@ -1,0 +1,30 @@
+2-ary heap:
+100
+120
+150
+42
+running time: 2469 microseconds.
+4-ary heap:
+100
+120
+150
+42
+running time: 1211 microseconds.
+6-ary heap:
+100
+120
+150
+42
+running time: 1141 microseconds.
+8-ary heap:
+100
+120
+150
+42
+running time: 1150 microseconds.
+10-ary heap:
+100
+120
+150
+42
+running time: 1102 microseconds.
