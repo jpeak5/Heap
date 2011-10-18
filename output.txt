@@ -3,28 +3,28 @@
 120
 150
 42
-running time: 2469 microseconds.
+running time: 23219 microseconds.
 4-ary heap:
 100
 120
 150
 42
-running time: 1211 microseconds.
+running time: 1402 microseconds.
 6-ary heap:
 100
 120
 150
 42
-running time: 1141 microseconds.
+running time: 1138 microseconds.
 8-ary heap:
 100
 120
 150
 42
-running time: 1150 microseconds.
+running time: 1104 microseconds.
 10-ary heap:
 100
 120
 150
 42
-running time: 1102 microseconds.
+running time: 5119 microseconds.
